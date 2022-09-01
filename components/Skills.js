@@ -14,7 +14,6 @@ import {
 const Skills = () => {
     const thirdRef = useRef();
     const [thirdElement, setThirdElement] = useState();
-    console.log("third", thirdElement);
     useEffect(() => {
       const observer = new IntersectionObserver((entries) => {
         const entry = entries[0];

@@ -4,7 +4,6 @@ import styles from "../styles/About.module.css";
 const About = () => {
     const secondRef = useRef();
     const [secondElement, setSecondElement] = useState();
-    console.log("second", secondElement);
     useEffect(() => {
       const observer = new IntersectionObserver((entries) => {
         const entry = entries[0];
@@ -28,7 +27,7 @@ const About = () => {
               Now I am a Front-end Engineer with a focus on React development. I
               specifically enjoy making use of an open source React framework
               called Next.js. I am in search of a place to expand my programming
-              knowledge and grow into a well rounded developer. Let's build a
+              knowledge and grow into a well rounded developer. Let&apos;s build a
               better web together!
             </p>
           </div>

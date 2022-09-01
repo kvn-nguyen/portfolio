@@ -4,7 +4,6 @@ import styles from "../styles/Homepage.module.css";
 const Homepage = () => {
   const firstRef = useRef();
   const [firstElement, setfirstElement] = useState();
-  console.log("first", firstElement);
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
       const entry = entries[0];

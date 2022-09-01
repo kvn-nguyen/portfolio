@@ -4,7 +4,6 @@ import styles from "../styles/Projects.module.css";
 const Projects = () => {
   const fourthRef = useRef();
   const [fourthElement, setFourthElement] = useState();
-  console.log("fourth", fourthElement);
   useEffect(() => {
     const observer = new IntersectionObserver(
       entries => {
@@ -61,7 +60,7 @@ const Projects = () => {
           <hr></hr>
           <p>
             A hangman game based on the original 151 Pokemon! Do you have what
-            it takes to catch 'em all? Requires a keyboard to play!
+            it takes to catch &apos;em all? Requires a keyboard to play!
           </p>
           <a
             href="https://pokemon-hangman-kvn-nguyen.vercel.app/"
