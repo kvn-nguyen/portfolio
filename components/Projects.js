@@ -60,7 +60,7 @@ const Projects = () => {
           <hr></hr>
           <p>
             A hangman game based on the original 151 Pokemon! Do you have what
-            it takes to catch &apos;em all? Requires a keyboard to play!
+            it takes to catch them all? Requires a keyboard to play!
           </p>
           <a
             href="https://pokemon-hangman-kvn-nguyen.vercel.app/"
