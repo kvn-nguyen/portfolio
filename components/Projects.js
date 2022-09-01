@@ -11,7 +11,7 @@ const Projects = () => {
         setFourthElement(entry.isIntersecting);
         if (entry.isIntersecting) observer.unobserve(entry.target);
       },
-      { threshold: 0.05 }
+      { threshold: 0.06 }
     );
     observer.observe(fourthRef.current);
   }, []);
