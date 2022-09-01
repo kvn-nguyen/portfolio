@@ -1,0 +1,50 @@
+.secondView {
+  display: flex;
+  justify-content: center;
+}
+.secondContainer {
+  background-image: linear-gradient(#699db1, #548fa5);
+  border-radius: 5px;
+  box-shadow: 0 2px 2px #091e4240;
+  margin: 2rem 1rem;
+  padding: 2rem 1rem;
+  width: 90%;
+  opacity: 0;
+}
+.secondContainer h1 {
+  padding-top: 2rem;
+  margin-top: 0;
+}
+.secondContainer p {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  line-height: 1.5;
+}
+.secondContainer p:first-of-type {
+  padding-bottom: 0;
+}
+
+.fadeInUp {
+  animation-duration: 1s;
+  animation-name: fadeInUp;
+  opacity: 1;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (min-width: 992px) {
+  .secondContainer p {
+    max-width: 50%;
+  }
+}

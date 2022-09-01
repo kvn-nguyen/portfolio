@@ -1,0 +1,87 @@
+.thirdView {
+  display: flex;
+  justify-content: center;
+}
+.thirdContainer {
+  background-image: linear-gradient(#699db1, #548fa5);
+  border-radius: 5px;
+  box-shadow: 0 2px 2px #091e4240;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2rem 1rem;
+  padding: 2rem 1rem;
+  width: 90%;
+  opacity: 0;
+}
+.thirdContainer h1 {
+  padding-top: 2rem;
+  margin-top: 0;
+}
+.skillRow {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+.skillItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 33%;
+}
+.thirdView .faIcon {
+  height: 80px;
+  width: 80px;
+  color: white;
+}
+
+.fadeInUp {
+  animation-duration: 1s;
+  animation-name: fadeInUp;
+  opacity: 1;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .thirdView .faIcon {
+    height: 130px;
+    width: 130px;
+  }
+  .thirdContainer h4 {
+    font-size: 18px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .thirdContainer .skillRow {
+    max-width: 65%;
+  }
+  .thirdContainer h4 {
+    font-size: 19px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .thirdContainer h4 {
+    font-size: 20px;
+  }
+}

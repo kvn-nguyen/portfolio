@@ -1,0 +1,76 @@
+.fourthView {
+  display: flex;
+  justify-content: center;
+}
+.fourthView h1 {
+  padding-top: 2rem;
+  margin-top: 0;
+}
+
+.fourthContainer {
+  background-image: linear-gradient(#548fa5, #3e819a);
+  border-radius: 5px;
+  box-shadow: 0 2px 2px #091e4240;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2rem 1rem;
+  padding: 2rem 1rem;
+  width: 90%;
+  opacity: 0;
+}
+.fourthContainer h3 {
+  margin: 0;
+  padding-top: 2rem;
+}
+.fourthContainer img {
+  border-radius: 5px;
+  box-shadow: 0 2px 2px #091e4240;
+  height: 412px;
+  width: 525px;
+}
+.projectContent hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 2px solid white;
+}
+.projectContent p {
+  max-width: fit-content;
+  padding: 0.5rem;
+}
+
+.fadeInUp {
+  animation-duration: 1s;
+  animation-name: fadeInUp;
+  opacity: 1;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 576px) {
+  .fourthContainer img {
+    height: 250px;
+    width: 320px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .fourthContainer img {
+    height: 550px;
+    width: 700px;
+  }
+}

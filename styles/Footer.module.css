@@ -1,0 +1,10 @@
+.footerContainer {
+  background-color: #102e39;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.footerLink a {
+  padding: 0.5rem 1rem;
+}
