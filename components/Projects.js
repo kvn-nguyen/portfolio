@@ -52,7 +52,7 @@ const Projects = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="/static/beerapi-app.png" alt="beer app" />
+            <img src="/static/beer-app.png" alt="beer app" />
           </a>
         </div>
         <div className={styles.projectContent}>
