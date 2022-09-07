@@ -111,8 +111,8 @@
   .header .rightSide .hiddenHeader {
     position: absolute;
     left: 0px;
-    height: 60px;
-    max-height: 230px;
+    height: 460px;
+    /* max-height: 230px; */
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -136,7 +136,7 @@
 
   .navMenu {
     transition: transform 0.5s ease-in-out;
-    transform: translateY(60px);
+    transform: translateY(260px);
   }
 
   .hidden {

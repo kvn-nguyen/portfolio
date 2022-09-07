@@ -3,7 +3,7 @@ import styles from "../styles/Header.module.css";
 import NavItems from "./NavItems";
 
 const Header = () => {
-  const [displayNav, setDisplayNav] = useState(true);
+  const [displayNav, setDisplayNav] = useState(false);
 
   return (
     <div className={styles.header}>
@@ -19,14 +19,14 @@ const Header = () => {
       </div>
       <div className={styles.rightSide}>
         <div className={styles.hiddenHeader}>
-          <div className={displayNav ? `${styles.hidden} ${styles.navMenu}` : styles.navMenu}>
+          <div className={displayNav ? styles.navMenu : styles.hidden}>
             <NavItems />
           </div>
         </div>
         <div className={styles.hamburger}>
           <div
             className={
-              displayNav ? styles.menuBtn : styles.menuBtn + " " + styles.open
+              displayNav ? `${styles.menuBtn} ${styles.open}` : styles.menuBtn
             }
             onClick={() => setDisplayNav(!displayNav)}
           >
