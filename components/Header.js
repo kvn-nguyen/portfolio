@@ -19,7 +19,7 @@ const Header = () => {
       </div>
       <div className={styles.rightSide}>
         <div className={styles.hiddenHeader}>
-          <div className={displayNav ? styles.hidden : styles.active}>
+          <div className={displayNav ? `${styles.hidden} ${styles.navMenu}` : styles.navMenu}>
             <NavItems />
           </div>
         </div>
