@@ -17,8 +17,13 @@
   z-index: 6;
 }
 
+.header .leftSide a {
+  align-content: center;
+  display: flex;
+}
+
 .header .leftSide img {
-  border-radius: 45%;
+  border-radius: 50%;
 }
 
 .header .rightSide {

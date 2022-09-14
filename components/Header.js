@@ -10,10 +10,10 @@ const Header = () => {
       <div className={styles.leftSide}>
         <a href="#first">
           <img
-            src="/static/kn_logo.jpg"
+            src="/static/kn_logo_main.png"
             alt="logo pic"
-            width="40px"
-            height="40px"
+            width="45px"
+            height="45px"
           />
         </a>
       </div>
