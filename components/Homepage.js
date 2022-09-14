@@ -14,7 +14,7 @@ const Homepage = () => {
   }, [])
 
     return (
-        <div id="first" className={styles.firstView}>
+        <div id="home" className={styles.firstView}>
           <div ref={firstRef} className={`${styles.firstContainer} ${firstElement ? styles.fadeInUp : ""}`}>
           <div className={styles.firstMe}>
             <h2>Hi, my name is</h2>

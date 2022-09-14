@@ -17,7 +17,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <div id="fourth" className={styles.fourthView}>
+    <div id="projects" className={styles.fourthView}>
       <div
         ref={fourthRef}
         className={`${styles.fourthContainer} ${

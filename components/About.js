@@ -14,7 +14,7 @@ const About = () => {
     }, [])
 
     return (
-        <div id="second" className={styles.secondView}>
+        <div id="about" className={styles.secondView}>
           <div ref={secondRef} className={`${styles.secondContainer} ${secondElement ? styles.fadeInUp : ""}`}>
             <h1>ABOUT ME</h1>
             <p>

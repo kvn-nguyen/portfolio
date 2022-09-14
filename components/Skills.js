@@ -24,7 +24,7 @@ const Skills = () => {
     }, [])
 
     return (
-        <div id="third" className={styles.thirdView}>
+        <div id="skills" className={styles.thirdView}>
           <div ref={thirdRef} className={`${styles.thirdContainer} ${thirdElement ? styles.fadeInUp : ""}`}>
             <h1>CURRENT SKILLS</h1>
             <div className={styles.skillRow}>

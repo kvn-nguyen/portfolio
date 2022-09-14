@@ -6,16 +6,16 @@ const NavItems = () => {
     <div className = {styles.mainNav}>
       <ul>
         <li>
-          <a href="#first">HOME</a>
+          <a href="#home">HOME</a>
         </li>
         <li>
-          <a href="#second">ABOUT</a>
+          <a href="#about">ABOUT</a>
         </li>
         <li>
-          <a href="#third">SKILLS</a>
+          <a href="#skills">SKILLS</a>
         </li>
         <li>
-          <a href="#fourth">PROJECTS</a>
+          <a href="#projects">PROJECTS</a>
         </li>
       </ul>
     </div>

@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div className={styles.header}>
       <div className={styles.leftSide}>
-        <a href="#first">
+        <a href="#home">
           <img
             src="/static/kn_logo_main.png"
             alt="logo pic"
