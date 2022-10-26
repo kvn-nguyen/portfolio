@@ -25,21 +25,7 @@ const Projects = () => {
         }`}
       >
         <h1>NOTABLE PROJECTS</h1>
-        <div className={styles.projectContent}>
-          <h3>Kanban Board</h3>
-          <hr></hr>
-          <p>
-            A simple Kanban board app that allows users to add new tasks and
-            change the status of each task.
-          </p>
-          <a
-            href="https://kanban-board-kvn-nguyen.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="/static/kanban-app.png" alt="kanban app" />
-          </a>
-        </div>
+
         <div className={styles.projectContent}>
           <h3>Beer Punk API</h3>
           <hr></hr>
@@ -55,6 +41,23 @@ const Projects = () => {
             <img src="/static/beer-app.png" alt="beer app" />
           </a>
         </div>
+
+        <div className={styles.projectContent}>
+          <h3>Agile Task Board</h3>
+          <hr></hr>
+          <p>
+            A simple agile task board app that allows users to add new tasks and
+            change the status of each task.
+          </p>
+          <a
+            href="https://agile-task-board-git-main-kvn-nguyen.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/static/agile-app.png" alt="agile app" />
+          </a>
+        </div>
+
         <div className={styles.projectContent}>
           <h3>Pokemon Hangman</h3>
           <hr></hr>
