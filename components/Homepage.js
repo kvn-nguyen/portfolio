@@ -21,12 +21,12 @@ const Homepage = () => {
             <h1>Kevin Nguyen</h1>
           </div>
           <img src="/static/kevinpic.jpg" alt="profile pic" />
-          <div className={styles.firstDescription}>
+          /*<div className={styles.firstDescription}>
             <p>
               I like to construct solid and scalable web applications with
               great user experiences.
             </p>
-          </div>
+          </div>*/
         </div>
       </div>
     )
