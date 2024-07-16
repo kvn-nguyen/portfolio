@@ -19,16 +19,18 @@ const About = () => {
             <h1>ABOUT ME</h1>
             <p>
               I graduated from California State University, Fullerton with a BS
-              in Computer Science. Seeking to expand my knowledge of growing
-              technologies, I began my initial career learning about electronics
-              and the hardware side of consumer products.
+              in Computer Science. I am a dedicated and detail-oriented Quality
+              Assurance (QA) Engineer with 5 years of experience in ensuring the
+              highest standards of software quality. My passion lies in identifying
+              potential issues before they become problems, and I take pride in
+              deliverying reliable, efficient, and user-friendly solutions.
             </p>
             <p>
-              Now I am a Front-end Engineer with a focus on React development. I
-              specifically enjoy making use of an open source React framework
-              called Next.js. I am in search of a place to expand my programming
-              knowledge and grow into a well rounded developer. Let&apos;s build a
-              better web together!
+              My journey as a QA Engineer has honed my analytical and problem-solving
+              skills, making me adept at thinking critically and addressing complex
+              challenges. However, I am now excited to explore new opportunities,
+              whether it&apos;s advancing my career in QA or venturing into a new
+              field where I can leverage my skills and learn new ones.
             </p>
           </div>
         </div>
