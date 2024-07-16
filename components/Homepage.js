@@ -22,10 +22,10 @@ const Homepage = () => {
           </div>
           <img src="/static/kevinpic.jpg" alt="profile pic" />
           <div className={styles.firstDescription}>
-            /*<p>
+            <p>
               I like to construct solid and scalable web applications with
               great user experiences.
-            </p>*/
+            </p>
           </div>
         </div>
       </div>
